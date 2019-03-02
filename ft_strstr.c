@@ -10,7 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-int		compare(const char *str, const char *to_find)
+static int	compare(const char *str, const char *to_find)
 {
 	int i;
 
@@ -26,7 +26,7 @@ int		compare(const char *str, const char *to_find)
 	return (0);
 }
 
-char	*ft_strstr(const char *str, const char *to_find)
+char		*ft_strstr(const char *str, const char *to_find)
 {
 	int i;
 

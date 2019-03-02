@@ -12,7 +12,7 @@
 
 #include "libft.h"
 
-void	ft_arr_fill(char **ar, char const *s, char c)
+static void	ft_arr_fill(char **ar, char const *s, char c)
 {
 	char	**pa;
 	char	*p;
@@ -39,7 +39,7 @@ void	ft_arr_fill(char **ar, char const *s, char c)
 	*pa = NULL;
 }
 
-char	**ft_strsplit(char const *s, char c)
+char		**ft_strsplit(char const *s, char c)
 {
 	char	**arr;
 

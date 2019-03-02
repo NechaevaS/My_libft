@@ -12,7 +12,7 @@
 
 #include "libft.h"
 
-char	*ft_fill(char *s, int n)
+static char	*ft_fill(char *s, int n)
 {
 	if (n > 9)
 		s = ft_fill(s, n / 10);
@@ -20,7 +20,7 @@ char	*ft_fill(char *s, int n)
 	return (s + 1);
 }
 
-char	*ft_itoa(int n)
+char		*ft_itoa(int n)
 {
 	char	*str;
 
