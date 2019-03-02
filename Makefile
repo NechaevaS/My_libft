@@ -6,7 +6,7 @@
 #    By: snechaev <marvin@42.fr>                    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2019/02/20 11:01:28 by snechaev          #+#    #+#              #
-#    Updated: 2019/03/01 13:10:13 by snechaev         ###   ########.fr        #
+#    Updated: 2019/03/01 16:26:14 by snechaev         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -69,6 +69,9 @@ OBJS = ft_memset.o\
 		ft_lstnew.o\
 		ft_lstdelone.o\
 		ft_lstdel.o\
+		ft_lstadd.o\
+		ft_lstiter.o\
+		ft_lstmap.o\
 
 CFLAGS = -Wall -Wextra -Werror
 
