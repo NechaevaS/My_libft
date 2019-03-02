@@ -26,7 +26,7 @@ char	*ft_strnstr(const char *str, const char *find, size_t len)
 	while (1)
 	{
 		res = ft_strchr(res, find[0]);
-		if (!res || len - (res - str) < flen)
+		if (!res || (str + len) <= res || (res + flen) > (str + len))
 			return (0);
 		if (ft_strncmp(res, find, flen) == 0)
 			return (res);

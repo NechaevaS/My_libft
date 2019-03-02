@@ -23,7 +23,7 @@ typedef struct		s_list
 	struct s_list	*next;
 }					t_list;
 
-int					ft_strlen(const char *str);
+size_t					ft_strlen(const char *str);
 int					ft_strcmp(const char *s1, const char *s2);
 int					ft_strncmp(const char *s1, const char *s2, size_t n);
 char				*ft_strstr(const char *str, const char *to_find);

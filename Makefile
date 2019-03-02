@@ -80,7 +80,9 @@ all : $(NAME)
 $(NAME) : $(OBJS)
 	ar rc $(NAME) $(OBJS)
 	ranlib $(NAME)
-	
+
+$(OBJS) : libft.h
+
 clean :
 	rm -f $(OBJS)
 
