@@ -63,15 +63,18 @@ OBJS = ft_memset.o\
 		ft_putstr_fd.o\
 		ft_putendl_fd.o\
 		ft_putnbr_fd.o\
-		ft_iswsps.o\
-		ft_skipws.o\
-		ft_cnt_words.o\
 		ft_lstnew.o\
 		ft_lstdelone.o\
 		ft_lstdel.o\
 		ft_lstadd.o\
 		ft_lstiter.o\
 		ft_lstmap.o\
+		ft_iswsps.o\
+		ft_skipws.o\
+		ft_cnt_words.o\
+		ft_find.o\
+		ft_skip.o\
+		ft_print_mem.o\
 
 CFLAGS = -Wall -Wextra -Werror
 

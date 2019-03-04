@@ -85,5 +85,8 @@ t_list				*ft_lstmap(t_list *lst, t_list *(*f)(t_list *elem));
 int					ft_iswsps(char c);
 int					ft_skipws(char *str);
 int					ft_cnt_words(char const *s, char c);
+char				*ft_find(char *str,int (*f)(int n));
+char				*ft_skip(char *str,int (*f)(int n));
+void				ft_print_mem(unsigned char *str, size_t size);
 
 #endif
